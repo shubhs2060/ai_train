@@ -32,3 +32,13 @@ Byte Pair Encoding (BPE) — used in GPT and OpenAI models.
 WordPiece — used in BERT.
 
 SentencePiece (Unigram) — used in models like T5 and ALBERT.
+
+One example is tiktokenizer provided by Open AI
+so you can do a pip install tiktokenizer
+
+tokenzier = Tokenizer
+tokenizer.encode("I am sleeping")
+output - [23,1,32323]
+
+tokenizer.decode([23,1,32323])
+output - I am sleeping
